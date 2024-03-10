@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: calc(100% - 60px);
+    display: grid;
+    grid-template-rows: 21rem 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: var(--background-primary);
+    .row1 {
+      display: grid;
+      grid-template-columns: 0.25fr auto 0.25fr;
+      gap: 1rem;
+    }
+    .row2 {
+      display: grid;
+      grid-template-columns: 0.25fr auto;
+      gap: 1rem;
+    }
+  }
+  
+  .column1 {
+    background-color: var(--background-quarnary);
+  }
+  .column2 {
+    background-color: var(--background-quarnary);
+  }
+  .column3 {
+    background-color: var(--background-quarnary);
+  }
+  .column4 {
+    background-color: var(--background-quarnary);
+  }
+  .column5 {
+    background-color: var(--background-quarnary);
+  }
+  
