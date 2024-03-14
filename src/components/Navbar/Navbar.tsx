@@ -6,11 +6,11 @@ const Navbar = () => {
     return (
         <nav className={styles.navbarRoot}>
             <div className={styles.searchInput}>
-                <SearchIconSvg />
+                <SearchIconSvg stroke='white' />
                 SearchInput Field
             </div>
             <div className={styles.profileSection}>
-                <ProfileIconSvg />
+                <ProfileIconSvg fill='white' />
             </div>
         </nav>
     )

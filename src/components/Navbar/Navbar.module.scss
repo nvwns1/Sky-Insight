@@ -5,16 +5,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  background-color: transparent;
   .searchInput {
     position: absolute;
     left: 70px;
     width: 50%;
-    background-color: var(--background-primary);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
   }
   .profileSection {
     position: absolute;
-    right: 10px;
-    width: 50%;
-    background-color: var(--background-ternary);
+    right: 2rem;
   }
 }

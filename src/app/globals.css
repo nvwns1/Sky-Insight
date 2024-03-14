@@ -2,12 +2,41 @@
   --full-viewport-width: 100vw;
   --full-viewport-height: 100dvh;
 
-  --background-primary: #295BA0;
+  --background-primary: #295ba0;
   --background-secondary: #406eac;
-  --background-ternary: #4875B0;
-  --background-quarnary: #4774AF;
+  --background-ternary: #4875b0;
+  --background-quarnary: #4774af;
 
-  --text-primary: #fffcfa;
+  --text-primary: #f2f2f2;
+  --text-primary-dark: #CBCBCB;
+
+  --text-2xl: 4.5rem;
+  /* 72px / 16px = 4.5rem */
+  --text-xl: 4rem;
+  /* 64px / 16px = 4rem */
+  --text-lg: 3rem;
+  /* 48px / 16px = 3rem */
+  --text-md: 2.25rem;
+  /* 36px / 16px = 2.25rem */
+  --text-sm: 2rem;
+  /* 32px / 16px = 2rem */
+  --text-xs: 1.5rem;
+  /* 24px / 16px = 1.5rem */
+
+  --font-xl: 1.25rem;
+  /* 20px / 16px = 1.25rem */
+  --font-lg: 1.125rem;
+  /* 18px / 16px = 1.125rem */
+  --font-md: 1rem;
+  /* 16px / 16px = 1rem */
+  --font-sm: 0.875rem;
+  /* 14px / 16px = 0.875rem */
+  --font-xs: 0.75rem;
+  /* 12px / 16px = 0.75rem */
+  --font-xxs: 0.625rem;
+  /* 10px / 16px = 0.625rem */
+  --font-xxxs: 0.5rem;
+  /* 8px / 16px = 0.5rem */
 }
 
 /* :root {
